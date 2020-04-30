@@ -23,7 +23,8 @@ body {
     }
     
     footer{
-        color: white;
+        padding-top: 300px;
+        color: black;
         text-align: center;
         font-style: italic;
     }
