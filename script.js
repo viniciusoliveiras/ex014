@@ -5,8 +5,8 @@ function carregar(){
     var hora =dataH.getHours()
     var dataM = new Date()
     var minutos = dataM.getMinutes()
-    var nome = window.prompt("Olá! Eu sou o site do Vinícius. Qual o seu nome?")
-
+    var nome = window.prompt("Olá! Eu sou o site criado pelo Vinícius. Qual o seu nome?")
+    
     if(hora>=6 && hora<=12){
         //bom dia
         msg.innerHTML = `<strong>Bom dia, ${nome}!</strong>`
@@ -33,5 +33,5 @@ function carregar(){
         img.src = 'fotomadrugada.png'
         document.body.style.background = '#244b7f'
     }
-
+    
 }
