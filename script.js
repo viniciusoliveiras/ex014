@@ -6,7 +6,7 @@ function carregar(){
     var dataM = new Date()
     var hora = dataH.getHours()
     var minutos = dataM.getMinutes()
-    var nome = 'Mateus'//window.prompt("Olá! Eu sou o site criado pelo Vinícius. Qual o seu nome?")
+    var nome = window.prompt("Olá! Eu sou o site criado pelo Vinícius. Qual o seu nome?")
     
     if(hora > 5 && hora <= 12){
         //bom dia

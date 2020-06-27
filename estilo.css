@@ -10,18 +10,23 @@ body {
 }
 
 header{
-    margin: 30px 0;
+    margin: 40px auto 0;
     color: white;
     text-align: center;
 }
 
-section{
+section{    
     background: white;
+    margin: 60px auto 0;
     border-radius: 10px;
     padding: 15px;
-    width: 350px;
-    margin: 35px auto;
+    width: 380px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.205);
+}
+
+div.page{
+    padding: 0;
+    margin: 0 auto;
 }
 
 div{
@@ -29,9 +34,39 @@ div{
     padding: 8px;
 }
 
+div#msg{
+    width: 350px;
+    height: 102px;
+}
+
+div#foto{
+    width: 350px;
+    height: 275px;
+}
+
 footer{
     /* padding-top: 300px; */
-    margin: 20px 0;
+    margin: 45px auto 0;
     color: black;
     text-align: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+p{
+    font-size: 20px;
+    margin: 10px;
 }
