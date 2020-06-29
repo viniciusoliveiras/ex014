@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+
 }
 
 body {
@@ -10,14 +14,14 @@ body {
 }
 
 header{
-    margin: 40px auto 0;
+    margin: 50px auto 0;
     color: white;
     text-align: center;
 }
 
 section{    
     background: white;
-    margin: 60px auto 0;
+    margin: 50px auto 0;
     border-radius: 10px;
     padding: 15px;
     width: 380px;
@@ -68,10 +72,11 @@ a > p {
 
 h1{
     font-size: 40px;
+    font-weight: 700;
 }
 
 h2{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 
