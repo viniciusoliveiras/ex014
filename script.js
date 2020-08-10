@@ -2,7 +2,7 @@ function carregar(){
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
     var dataH = new Date()
-    var hora =dataH.getHours()
+    var hora = dataH.getHours()
     var dataM = new Date()
     var minutos = dataM.getMinutes()
     var nome = window.prompt("Olá! Eu sou o site criado pelo Vinícius. Qual o seu nome?")
