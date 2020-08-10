@@ -28,3 +28,8 @@ body {
         text-align: center;
         font-style: italic;
     }
+
+    .logo{
+        height: 80px;
+        width:200px;
+    }
